@@ -1,0 +1,60 @@
+.card__img__wrapper {
+    position: relative;
+    display: flex;
+}
+
+.card__img__main__lap-top {
+    width: 573.3px;
+    height: 341.3px;
+}
+
+.card__img__main__player {
+    width: 264px;
+}
+
+.card__img__main {
+    position: absolute;
+    top: 57px;
+    right: 0;
+}
+
+.card__img__player{
+    position: absolute;
+    top: 158px;
+    right: 170px;
+    z-index: 2;
+    user-select: none;
+}
+
+.card__img__main__player:hover{ 
+    opacity: 0.7;
+}
+
+.card__img__figure {
+    z-index: -2;
+    position: absolute;
+    right: -240px;
+    top: 0;
+}
+
+.card__img__figure720 {
+    display: none;
+}
+
+.card__img__figure320 {
+    display: none;
+}
+
+.card__img__main__figure {
+    width: 929px;
+    height: 578px;
+    user-select: none;
+}
+
+.card__img__main__figure720 {
+    display: none;
+}
+
+.card__img__main__figure320 {
+    display: none;
+}

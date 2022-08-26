@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+  
+html {
+  color:#000000;
+  background: #FFFFFF;
+}
+  
+body {
+  margin: 0;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  position: relative;
+}
+
+p, ul, ol {
+  margin: 0 0 0 0;
+}
+
+* + p, * + ul, * + ol {
+  margin-top: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 0 0;
+}
+
+* + h1, * + h2, * + h3, * + h4, * + h5, * + h6 {
+  margin-top: 0;
+}
+
+a, .link {
+  color: blue;
+  text-decoration: none;
+}
+
+@import './blocks/fonts';
+@import './blocks/breadcrumbs';
+@import './blocks/rating';
+@import './blocks/title';
+@import './blocks/card-img';
+@import './blocks/sales-lable';
+@import './blocks/sales-line';
+@import './blocks/info-line';
+@import './blocks/info-hint';
+
+@import './blocks/media/all-media';

@@ -1,0 +1,62 @@
+.rating {
+    margin-top: 24px;
+}
+
+.rating__block {
+    display: flex;
+    flex-direction: row;
+}
+
+.rating__logo__img {
+    width: 50px;
+    height: 56px;
+}
+
+.rating__title-stars {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8.9px;
+    margin-top: 8px;
+}
+
+.rating__title__text {
+    font-family: 'Kaspersky Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 25px;
+    color: #1D1D1B;
+    letter-spacing: 0.2px;
+}
+
+.rating__stars {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4.5px;
+    margin-left: 3px;
+}
+
+.rating__stars__block__img {
+    margin: 0;
+    padding: 0;
+    margin-left: 2.8px;
+    user-select: none;
+}
+
+.rating__stars__img {
+    width: 17px;
+    height: 16.2px;
+}
+
+.rating__reviews__text{
+    vertical-align: top;
+    margin: 0 0 0 6.84px;
+    font-family: 'Kaspersky Light';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #444444;
+}
